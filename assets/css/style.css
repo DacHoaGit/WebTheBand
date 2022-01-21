@@ -150,6 +150,7 @@ html{
     width:800px;
     margin-left: auto;
     margin-right: auto;
+    /* padding:64px 0 112px; */
     /* padding:0 -px; */
 }
 #content .content-section .section-heading{
@@ -198,7 +199,7 @@ html{
 }
 #content .clear{
     clear: both;
-    /* tuong tu /* overflow: hidden; mac dich the nay se chua cac khoi nhung no bi float boi the con  nen se khong chua the con, nen ta can them thuoc tinh overfolow nay de the cha list nay chua cac the con item */ */
+    /* tuong tu /* overflow: hidden; mac dich the nay se chua cac khoi nhung no bi float boi the con  nen se khong chua the con, nen ta can them thuoc tinh overfolow nay de the cha list nay chua cac the con item */
 }
 .text_white{
     color:#fff !important;
@@ -212,10 +213,9 @@ html{
 .tickets_list{
     background-color: #fff;
     margin-top: 40px;
-    margin-bottom   
 }
 .tickets_list li{
-    font-size:15px;
+    font-size: 15px;
     padding: 11px 16px;
     list-style-type: none;
     border-bottom: 1px solid #ddd;
@@ -312,11 +312,45 @@ h3 {
     padding:10px 16px;
     float:right;
 }
+.btn-submit:hover{
+    background-color: #757575;
+    cursor: pointer;
+}
+
+/* IMG MAP */
+.map-section img{
+    width: 100%;
+    margin-top:104px;
+    margin-bottom: 48px;
+}
+
 
 
 #footer {
+    padding:64px 0;
+    text-align: center;
 
 }
+.socialss-list{
+    font-size:24px;
+}
+.socialss-list a{
+    color:rgba(0,0,0,0.6);
+    text-decoration:none;
+}
+.socialss-list a:hover{
+    color:rgba(0,0,0,0.4);
+    
+}
+.copyright{
+    color:rgba(0,0,0,0.6);
+    margin-top: 15px;
+}
+.copyright a{
+    color:rgba(0,0,0,0.6);
+    
+}
+
 
 
 .modal{
